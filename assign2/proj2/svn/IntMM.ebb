@@ -1,0 +1,77 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Initmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end9}
+
+Initmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end9}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  1 aa               - Number of MayAlias results
+ 58 aa               - Number of MustAlias results
+103 aa               - Number of NoAlias results
+  2 basicaa          - Number of times a GEP is decomposed
+ 16 capture-tracking - Number of pointers not captured
+  6 gvn              - Number of blocks merged
+ 40 gvn              - Number of instructions deleted
+ 35 gvn              - Number of loads deleted
+  2 gvn              - Number of instructions simplified
+  2 memdep           - Number of block queries that were completely cached
+  2 memdep           - Number of cached, but dirty, non-local ptr responses
+ 62 memdep           - Number of fully cached non-local ptr responses
+ 62 memdep           - Number of uncached non-local ptr responses
+

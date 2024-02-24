@@ -1,0 +1,67 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+bInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+bInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Bubble:
+{entry}
+{while.cond, while.body}
+{while.cond1, while.body3, if.then}
+{if.end, while.end, while.end18, lor.lhs.false}
+{if.then21}
+{if.end22}
+
+Bubble:
+{entry}
+{while.cond, while.body}
+{while.cond1, while.body3, if.then}
+{if.end, while.end, while.end18, lor.lhs.false}
+{if.then21}
+{if.end22}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 10 aa               - Number of MayAlias results
+ 37 aa               - Number of MustAlias results
+104 aa               - Number of NoAlias results
+ 18 basicaa          - Number of times a GEP is decomposed
+  5 capture-tracking - Number of pointers not captured
+  2 gvn              - Number of blocks merged
+ 50 gvn              - Number of instructions deleted
+ 32 gvn              - Number of loads deleted
+  4 memdep           - Number of block queries that were completely cached
+  1 memdep           - Number of cached, but dirty, non-local ptr responses
+ 84 memdep           - Number of fully cached non-local ptr responses
+ 91 memdep           - Number of uncached non-local ptr responses
+

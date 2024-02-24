@@ -1,0 +1,56 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Swap:
+{entry}
+
+Swap:
+{entry}
+
+Initialize:
+{entry}
+{for.cond, for.body, for.end}
+
+Initialize:
+{entry}
+{for.cond, for.body, for.end}
+
+Permute:
+{entry, if.then}
+{for.cond, for.body, for.end}
+{if.end}
+
+Permute:
+{entry, if.then}
+{for.cond, for.body, for.end}
+{if.end}
+
+Permute:
+{entry, if.then}
+{for.cond, for.body, for.end}
+{if.end}
+
+Perm:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+Perm:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

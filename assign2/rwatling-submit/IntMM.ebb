@@ -1,0 +1,54 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Initmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end9}
+
+Initmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end9}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Innerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+Intmm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

@@ -1,0 +1,72 @@
+Function: Initrand
+
+All instructions:
+2: 1
+avg: 2.000000e+00
+
+Load only:
+
+
+Function: Rand
+
+All instructions:
+7: 1
+avg: 7.000000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Swap
+
+All instructions:
+5: 1
+avg: 5.000000e+00
+
+Load only:
+2: 1
+avg: 2.000000e+00
+
+Function: Initialize
+
+All instructions:
+5: 1
+avg: 5.000000e+00
+
+Load only:
+
+
+Function: Permute
+
+All instructions:
+1: 1
+4: 2
+5: 1
+14: 1
+avg: 5.600000e+00
+
+Load only:
+1: 1
+4: 1
+avg: 2.500000e+00
+
+Function: Perm
+
+All instructions:
+3: 2
+29: 1
+avg: 1.166667e+01
+
+Load only:
+1: 2
+avg: 1.000000e+00
+
+Function: main
+
+All instructions:
+101: 1
+avg: 1.010000e+02
+
+Load only:
+
+

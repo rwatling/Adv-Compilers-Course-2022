@@ -1,0 +1,101 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Cos:
+{entry}
+{for.cond, for.body, if.then, if.then5, if.else}
+{if.end}
+{if.end8, for.end}
+
+Cos:
+{entry}
+{for.cond, for.body, if.then, if.then5, if.else}
+{if.end}
+{if.end8, for.end}
+
+Min0:
+{entry, if.then, if.else}
+{return}
+
+Min0:
+{entry, if.then, if.else}
+{return}
+
+Printcomplex:
+{entry}
+{do.body, do.end}
+
+Printcomplex:
+{entry}
+{do.body, do.end}
+
+Printcomplex:
+{entry}
+{do.body, do.end}
+
+Uniform11:
+{entry}
+
+Uniform11:
+{entry}
+
+Exptab:
+{entry}
+{for.cond, for.body, for.end}
+{do.body}
+{do.body23, do.end, do.end65}
+
+Exptab:
+{entry}
+{for.cond, for.body, for.end}
+{do.body}
+{do.body23, do.end, do.end65}
+
+Fft:
+{entry}
+{do.body}
+{do.body1}
+{do.body2, do.end, do.end83}
+{do.body84, do.end92, do.end96}
+{for.cond, for.body, for.end}
+
+Fft:
+{entry}
+{do.body}
+{do.body1}
+{do.body2, do.end, do.end83}
+{do.body84, do.end92, do.end96}
+{for.cond, for.body, for.end}
+
+Fft:
+{entry}
+{do.body}
+{do.body1}
+{do.body2, do.end, do.end83}
+{do.body84, do.end92, do.end96}
+{for.cond, for.body, for.end}
+
+Oscar:
+{entry}
+{for.cond, for.body, for.end}
+{for.cond5, for.body8, for.end11}
+
+Oscar:
+{entry}
+{for.cond, for.body, for.end}
+{for.cond5, for.body8, for.end11}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

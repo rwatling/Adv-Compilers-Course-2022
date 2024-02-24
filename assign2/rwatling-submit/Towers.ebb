@@ -1,0 +1,89 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Error:
+{entry}
+
+Error:
+{entry}
+
+Makenull:
+{entry}
+
+Makenull:
+{entry}
+
+Getelement:
+{entry, if.then, if.else}
+{if.end}
+
+Getelement:
+{entry, if.then, if.else}
+{if.end}
+
+Push:
+{entry, if.then, if.then6}
+{if.end}
+{if.end7, if.then8}
+{if.end18}
+
+Push:
+{entry, if.then, if.then6}
+{if.end}
+{if.end7, if.then8}
+{if.end18}
+
+Init:
+{entry}
+{for.cond, for.body, for.end}
+
+Init:
+{entry}
+{for.cond, for.body, for.end}
+
+Pop:
+{entry, if.then, if.else}
+{return}
+
+Pop:
+{entry, if.then, if.else}
+{return}
+
+Move:
+{entry}
+
+Move:
+{entry}
+
+tower:
+{entry, if.then, if.else}
+{if.end}
+
+tower:
+{entry, if.then, if.else}
+{if.end}
+
+Towers:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+Towers:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

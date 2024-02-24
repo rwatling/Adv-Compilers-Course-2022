@@ -1,0 +1,136 @@
+Function: Initrand
+
+All instructions:
+2: 1
+avg: 2.000000e+00
+
+Load only:
+
+
+Function: Rand
+
+All instructions:
+7: 1
+avg: 7.000000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Cos
+
+All instructions:
+26: 1
+avg: 2.600000e+01
+
+Load only:
+
+
+Function: Min0
+
+All instructions:
+3: 1
+avg: 3.000000e+00
+
+Load only:
+
+
+Function: Printcomplex
+
+All instructions:
+1: 1
+2: 1
+22: 1
+avg: 8.333333e+00
+
+Load only:
+4: 1
+avg: 4.000000e+00
+
+Function: Uniform11
+
+All instructions:
+9: 1
+avg: 9.000000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Exptab
+
+All instructions:
+2: 1
+4: 1
+5: 1
+9: 1
+20: 1
+26: 1
+30: 1
+avg: 1.371429e+01
+
+Load only:
+1: 1
+4: 1
+avg: 2.500000e+00
+
+Function: Fft
+
+All instructions:
+1: 3
+2: 7
+3: 4
+4: 1
+6: 1
+7: 1
+11: 1
+12: 3
+13: 1
+19: 1
+25: 1
+32: 1
+42: 1
+58: 1
+59: 1
+avg: 1.217857e+01
+
+Load only:
+1: 2
+2: 3
+8: 2
+13: 1
+avg: 4.625000e+00
+
+Function: Oscar
+
+All instructions:
+2: 4
+3: 2
+4: 1
+5: 2
+9: 1
+16: 1
+21: 1
+27: 1
+30: 1
+31: 1
+36: 1
+42: 1
+90: 1
+avg: 1.833333e+01
+
+Load only:
+2: 3
+4: 1
+32: 1
+avg: 8.400000e+00
+
+Function: main
+
+All instructions:
+11: 1
+avg: 1.100000e+01
+
+Load only:
+
+

@@ -1,0 +1,57 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+rInitmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end10}
+
+rInitmatrix:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end10}
+
+rInnerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+rInnerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+rInnerproduct:
+{entry}
+{for.cond, for.body, for.end}
+
+Mm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8, if.then}
+{if.end}
+
+Mm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8, if.then}
+{if.end}
+
+Mm:
+{entry}
+{for.cond, for.body}
+{for.cond1, for.body3, for.end, for.end8, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

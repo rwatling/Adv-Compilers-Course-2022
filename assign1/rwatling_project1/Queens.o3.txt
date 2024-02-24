@@ -1,0 +1,84 @@
+Function: Initrand
+
+All instructions:
+2: 1
+avg: 2.000000e+00
+
+Load only:
+
+
+Function: Rand
+
+All instructions:
+7: 1
+avg: 7.000000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Try
+
+All instructions:
+1: 1
+5: 20
+6: 8
+7: 1
+8: 1
+9: 1
+13: 1
+avg: 5.636364e+00
+
+Load only:
+1: 29
+avg: 1.000000e+00
+
+Function: Doit
+
+All instructions:
+2: 2
+3: 1
+4: 2
+5: 2
+6: 1
+8: 1
+16: 1
+avg: 5.500000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Queens
+
+All instructions:
+2: 2
+3: 2
+4: 3
+5: 2
+7: 1
+8: 1
+15: 1
+avg: 5.166667e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: main
+
+All instructions:
+1: 1
+2: 3
+3: 1
+4: 4
+5: 2
+7: 1
+8: 1
+15: 1
+avg: 4.714286e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+

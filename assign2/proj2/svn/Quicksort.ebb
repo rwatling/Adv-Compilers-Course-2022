@@ -1,0 +1,90 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Initarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Initarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quick:
+{entry, lor.lhs.false}
+{if.then}
+{if.end}
+
+Quick:
+{entry, lor.lhs.false}
+{if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 38 aa               - Number of MayAlias results
+ 66 aa               - Number of MustAlias results
+164 aa               - Number of NoAlias results
+ 64 basicaa          - Number of times a GEP is decomposed
+ 13 capture-tracking - Number of pointers not captured
+  3 gvn              - Number of blocks merged
+ 63 gvn              - Number of instructions deleted
+ 50 gvn              - Number of loads deleted
+  1 gvn              - Number of instructions simplified
+  6 local            - Number of PHI's that got CSE'd
+  3 memdep           - Number of block queries that were completely cached
+  5 memdep           - Number of cached, but dirty, non-local ptr responses
+249 memdep           - Number of fully cached non-local ptr responses
+105 memdep           - Number of uncached non-local ptr responses
+

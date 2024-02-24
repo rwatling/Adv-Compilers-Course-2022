@@ -1,0 +1,66 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Initarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Initarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quicksort:
+{entry}
+{do.body}
+{while.cond, while.body, while.end}
+{while.cond4, while.body8, while.end9, if.then}
+{if.end, do.end, if.then23}
+{if.end24, if.then26}
+{if.end27}
+
+Quick:
+{entry, lor.lhs.false}
+{if.then}
+{if.end}
+
+Quick:
+{entry, lor.lhs.false}
+{if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

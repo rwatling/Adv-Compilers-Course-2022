@@ -1,0 +1,45 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+bInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+bInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+Bubble:
+{entry}
+{while.cond, while.body}
+{while.cond1, while.body3, if.then}
+{if.end, while.end, while.end18, lor.lhs.false}
+{if.then21}
+{if.end22}
+
+Bubble:
+{entry}
+{while.cond, while.body}
+{while.cond1, while.body3, if.then}
+{if.end, while.end, while.end18, lor.lhs.false}
+{if.then21}
+{if.end22}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

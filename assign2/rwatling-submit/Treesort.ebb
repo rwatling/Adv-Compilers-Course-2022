@@ -1,0 +1,77 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+tInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+tInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+CreateNode:
+{entry}
+
+CreateNode:
+{entry}
+
+Insert:
+{entry, if.then, if.then2, if.else}
+{if.end, if.else5, if.then8, if.then10, if.else12}
+{if.end14}
+{if.end15}
+{if.end16}
+
+Insert:
+{entry, if.then, if.then2, if.else}
+{if.end, if.else5, if.then8, if.then10, if.else12}
+{if.end14}
+{if.end15}
+{if.end16}
+
+Checktree:
+{entry, if.then, if.then4, if.else, land.rhs}
+{land.end}
+{if.end}
+{if.end7, if.then9, if.then14, if.else15, land.rhs19}
+{land.end21}
+{if.end23}
+{if.end24}
+
+Checktree:
+{entry, if.then, if.then4, if.else, land.rhs}
+{land.end}
+{if.end}
+{if.end7, if.then9, if.then14, if.else15, land.rhs19}
+{land.end21}
+{if.end23}
+{if.end24}
+
+Trees:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+Trees:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

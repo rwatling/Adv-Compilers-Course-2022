@@ -1,0 +1,22 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 14 aa               - Number of MayAlias results
+ 37 aa               - Number of MustAlias results
+160 aa               - Number of NoAlias results
+ 38 basicaa          - Number of times a GEP is decomposed
+  5 capture-tracking - Number of pointers not captured
+  2 gvn              - Number of blocks merged
+ 39 gvn              - Number of instructions deleted
+ 32 gvn              - Number of loads deleted
+  4 memdep           - Number of block queries that were completely cached
+  1 memdep           - Number of cached, but dirty, non-local ptr responses
+ 87 memdep           - Number of fully cached non-local ptr responses
+ 93 memdep           - Number of uncached non-local ptr responses
+

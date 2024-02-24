@@ -1,0 +1,109 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Error:
+{entry}
+
+Error:
+{entry}
+
+Makenull:
+{entry}
+
+Makenull:
+{entry}
+
+Getelement:
+{entry, if.then, if.else}
+{if.end}
+
+Getelement:
+{entry, if.then, if.else}
+{if.end}
+
+Push:
+{entry, if.then, if.then6}
+{if.end}
+{if.end7, if.then8}
+{if.end18}
+
+Push:
+{entry, if.then, if.then6}
+{if.end}
+{if.end7, if.then8}
+{if.end18}
+
+Init:
+{entry}
+{for.cond, for.body, for.end}
+
+Init:
+{entry}
+{for.cond, for.body, for.end}
+
+Pop:
+{entry, if.then, if.else}
+{return}
+
+Pop:
+{entry, if.then, if.else}
+{return}
+
+Move:
+{entry}
+
+Move:
+{entry}
+
+tower:
+{entry, if.then, if.else}
+{if.end}
+
+tower:
+{entry, if.then, if.else}
+{if.end}
+
+Towers:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+Towers:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 80 aa               - Number of MustAlias results
+147 aa               - Number of NoAlias results
+  2 basicaa          - Number of times a GEP is decomposed
+ 17 capture-tracking - Number of pointers not captured
+  4 gvn              - Number of blocks merged
+ 79 gvn              - Number of instructions deleted
+ 57 gvn              - Number of loads deleted
+  8 memdep           - Number of block queries that were completely cached
+ 31 memdep           - Number of fully cached non-local ptr responses
+ 49 memdep           - Number of uncached non-local ptr responses
+

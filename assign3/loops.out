@@ -1,0 +1,98 @@
+Loop Nest 1
+  %0 = load i32, i32* %arrayidx, align 4, !tbaa !3
+level: 1
+stride: 1
+  store i32 %mul, i32* %arrayidx2, align 4, !tbaa !3
+level: 1
+stride: 1
+Loop Nest 2
+  %1 = load i32, i32* %arrayidx, align 8, !tbaa !3
+level: 1
+stride: 2
+  store i32 %1, i32* %arrayidx2, align 4, !tbaa !3
+level: 1
+stride: 1
+Loop Nest 3
+  %1 = load i32, i32* %arrayidx, align 8, !tbaa !3
+level: 1
+stride: 4
+  store i32 %1, i32* %arrayidx2, align 4, !tbaa !3
+level: 1
+stride: 2
+Loop Nest 4
+  %2 = load i32, i32* %arrayidx, align 4, !tbaa !3
+level: 1
+stride: 8
+  %4 = load i32, i32* %arrayidx3, align 16, !tbaa !3
+level: 1
+stride: 12
+  store i32 %add4, i32* %arrayidx7, align 16, !tbaa !3
+Loop Nest 5
+  %0 = load i32, i32* %arrayidx5, align 4, !tbaa !3
+level: 2
+stride: 1
+  store i32 %mul, i32* %arrayidx9, align 4, !tbaa !3
+level: 2
+stride: 1
+Loop Nest 6
+  %0 = load i32, i32* %arrayidx9, align 4, !tbaa !3
+  %3 = load i32, i32* %arrayidx5, align 4, !tbaa !3
+level: 2
+stride: 1
+  store i32 %add10, i32* %arrayidx14, align 4, !tbaa !3
+level: 2
+stride: 1
+Loop Nest 7
+  %4 = load i32, i32* %arrayidx6, align 8, !tbaa !3
+level: 2
+stride: 2
+  %6 = load i32, i32* %arrayidx11, align 4, !tbaa !3
+level: 2
+stride: 3
+  store i32 %add12, i32* %arrayidx17, align 4, !tbaa !3
+level: 2
+stride: 1
+Loop Nest 8
+  %0 = load i32, i32* %arrayidx5, align 8, !tbaa !3
+level: 1
+stride: 2
+  %1 = load i32, i32* %arrayidx9, align 4, !tbaa !3
+level: 1 //Wrong loop
+stride: 0 //Wrong stride, temporal reuse
+  store i32 %add, i32* %arrayidx13, align 4, !tbaa !3
+level: 2
+stride: 3
+Loop Nest 9
+  %0 = load double, double* %arrayidx10, align 8, !tbaa !3
+level: 3
+stride: 2
+  %3 = load double, double* %arrayidx17, align 8, !tbaa !3
+level: 3
+stride: 4
+  store double %add18, double* %arrayidx25, align 8, !tbaa !3
+level: 3
+stride: 2
+Loop Nest 10
+  %1 = load double, double* %arrayidx10, align 8, !tbaa !3
+level: 1 //Wrong
+stride: 0 // Wrong stride, temporal reuse
+  %4 = load double, double* %arrayidx17, align 8, !tbaa !3
+level: 3
+stride: 8
+  store double %add18, double* %arrayidx24, align 16, !tbaa !3
+level: 3
+stride: 4
+Loop Nest 11
+  %1 = load double, double* %arrayidx10, align 8, !tbaa !3
+level: 1 //Wrong
+stride: 0 // Temporal reuse
+  %4 = load double, double* %arrayidx17, align 8, !tbaa !3
+  store double %add18, double* %arrayidx24, align 8, !tbaa !3
+level: 2
+stride: 2
+Loop Nest 12
+  %1 = load double, double* %arrayidx10, align 8, !tbaa !3
+level: 3
+stride: 10
+  %3 = load double, double* %arrayidx17, align 16, !tbaa !3
+  store double %add, double* %arrayidx24, align 8, !tbaa !3

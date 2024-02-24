@@ -1,0 +1,111 @@
+Function: Initrand
+
+All instructions:
+2: 1
+avg: 2.000000e+00
+
+Load only:
+
+
+Function: Rand
+
+All instructions:
+8: 1
+avg: 8.000000e+00
+
+Load only:
+2: 1
+avg: 2.000000e+00
+
+Function: tInitarr
+
+All instructions:
+1: 3
+3: 1
+4: 1
+6: 2
+7: 2
+21: 1
+avg: 5.700000e+00
+
+Load only:
+1: 2
+2: 2
+3: 1
+6: 1
+avg: 2.500000e+00
+
+Function: CreateNode
+
+All instructions:
+22: 1
+avg: 2.200000e+01
+
+Load only:
+8: 1
+avg: 8.000000e+00
+
+Function: Insert
+
+All instructions:
+1: 4
+5: 4
+6: 3
+10: 1
+avg: 4.333333e+00
+
+Load only:
+2: 4
+3: 4
+avg: 2.500000e+00
+
+Function: Checktree
+
+All instructions:
+1: 2
+2: 3
+3: 2
+4: 2
+5: 1
+6: 2
+9: 1
+10: 2
+avg: 4.533333e+00
+
+Load only:
+1: 3
+2: 4
+5: 2
+avg: 2.333333e+00
+
+Function: Trees
+
+All instructions:
+1: 1
+2: 1
+3: 1
+4: 1
+7: 1
+10: 1
+19: 1
+avg: 6.571429e+00
+
+Load only:
+1: 2
+3: 2
+4: 1
+avg: 2.400000e+00
+
+Function: main
+
+All instructions:
+1: 1
+3: 2
+4: 1
+5: 1
+avg: 3.200000e+00
+
+Load only:
+1: 3
+avg: 1.000000e+00
+

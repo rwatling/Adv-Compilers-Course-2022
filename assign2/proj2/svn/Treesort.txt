@@ -1,0 +1,100 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+tInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+tInitarr:
+{entry}
+{for.cond, for.body, if.then, if.else, if.then13}
+{if.end}
+{if.end16, for.end}
+
+CreateNode:
+{entry}
+
+CreateNode:
+{entry}
+
+Insert:
+{entry, if.then, if.then2, if.else}
+{if.end, if.else5, if.then8, if.then10, if.else12}
+{if.end14}
+{if.end15}
+{if.end16}
+
+Insert:
+{entry, if.then, if.then2, if.else}
+{if.end, if.else5, if.then8, if.then10, if.else12}
+{if.end14}
+{if.end15}
+{if.end16}
+
+Checktree:
+{entry, if.then, if.then4, if.else, land.rhs}
+{land.end}
+{if.end}
+{if.end7, if.then9, if.then14, if.else15, land.rhs19}
+{land.end21}
+{if.end23}
+{if.end24}
+
+Checktree:
+{entry, if.then, if.then4, if.else, land.rhs}
+{land.end}
+{if.end}
+{if.end7, if.then9, if.then14, if.else15, land.rhs19}
+{land.end21}
+{if.end23}
+{if.end24}
+
+Trees:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+Trees:
+{entry}
+{for.cond, for.body, for.end, if.then}
+{if.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  8 aa               - Number of MayAlias results
+ 82 aa               - Number of MustAlias results
+165 aa               - Number of NoAlias results
+ 16 assume-queries   - Number of Queries into an assume assume bundles
+ 48 basicaa          - Number of times a GEP is decomposed
+ 20 capture-tracking - Number of pointers not captured
+  3 gvn              - Number of blocks merged
+ 81 gvn              - Number of instructions deleted
+ 64 gvn              - Number of loads deleted
+  1 gvn              - Number of instructions simplified
+  4 memdep           - Number of block queries that were completely cached
+ 92 memdep           - Number of fully cached non-local ptr responses
+ 96 memdep           - Number of uncached non-local ptr responses
+

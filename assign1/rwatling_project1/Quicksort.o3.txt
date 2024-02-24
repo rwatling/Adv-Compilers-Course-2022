@@ -1,0 +1,81 @@
+Function: Initrand
+
+All instructions:
+2: 1
+avg: 2.000000e+00
+
+Load only:
+
+
+Function: Rand
+
+All instructions:
+7: 1
+avg: 7.000000e+00
+
+Load only:
+1: 1
+avg: 1.000000e+00
+
+Function: Initarr
+
+All instructions:
+2: 3
+3: 1
+5: 3
+12: 1
+13: 1
+avg: 5.444445e+00
+
+Load only:
+
+
+Function: Quicksort
+
+All instructions:
+1: 2
+2: 3
+3: 1
+4: 3
+6: 3
+7: 1
+avg: 3.692308e+00
+
+Load only:
+1: 3
+avg: 1.000000e+00
+
+Function: Quick
+
+All instructions:
+2: 3
+3: 1
+4: 1
+5: 3
+6: 2
+12: 1
+13: 1
+avg: 5.416667e+00
+
+Load only:
+1: 1
+2: 2
+avg: 1.666667e+00
+
+Function: main
+
+All instructions:
+1: 2
+2: 3
+4: 2
+5: 3
+6: 2
+12: 1
+13: 1
+avg: 4.857143e+00
+
+Load only:
+1: 1
+2: 2
+avg: 1.666667e+00
+

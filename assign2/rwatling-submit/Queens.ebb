@@ -1,0 +1,65 @@
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Try:
+{entry}
+{while.cond, land.rhs}
+{land.end, while.body, land.lhs.true, land.lhs.true6, if.then, if.then23, if.then26}
+{if.end, if.else}
+{if.end36}
+{if.end37, while.end}
+
+Try:
+{entry}
+{while.cond, land.rhs}
+{land.end, while.body, land.lhs.true, land.lhs.true6, if.then, if.then23, if.then26}
+{if.end, if.else}
+{if.end36}
+{if.end37, while.end}
+
+Try:
+{entry}
+{while.cond, land.rhs}
+{land.end, while.body, land.lhs.true, land.lhs.true6, if.then, if.then23, if.then26}
+{if.end, if.else}
+{if.end36}
+{if.end37, while.end}
+
+Doit:
+{entry}
+{while.cond, while.body, land.lhs.true, if.then}
+{if.end, if.then4}
+{if.end7, if.then9}
+{if.end12, while.end, if.then17}
+{if.end18}
+
+Doit:
+{entry}
+{while.cond, while.body, land.lhs.true, if.then}
+{if.end, if.then4}
+{if.end7, if.then9}
+{if.end12, while.end, if.then17}
+{if.end18}
+
+Queens:
+{entry}
+{for.cond, for.body, for.end}
+
+Queens:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+

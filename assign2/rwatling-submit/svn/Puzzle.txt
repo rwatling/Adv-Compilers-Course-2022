@@ -1,0 +1,210 @@
+WARNING: You're attempting to print out a bitcode file.
+This is inadvisable as it may cause display problems. If
+you REALLY want to taste LLVM bitcode first-hand, you
+can force output with the `-f' option.
+
+Initrand:
+{entry}
+
+Rand:
+{entry}
+
+Rand:
+{entry}
+
+Fit:
+{entry}
+{for.cond, for.body, if.then, if.then8, if.end}
+{if.end9, for.end}
+{return}
+
+Fit:
+{entry}
+{for.cond, for.body, if.then, if.then8, if.end}
+{if.end9, for.end}
+{return}
+
+Fit:
+{entry}
+{for.cond, for.body, if.then, if.then8, if.end}
+{if.end9, for.end}
+{return}
+
+Place:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+{for.cond15, for.body17, if.then21, if.end22, for.end25}
+{return}
+
+Place:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+{for.cond15, for.body17, if.then21, if.end22, for.end25}
+{return}
+
+Place:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+{for.cond15, for.body17, if.then21, if.end22, for.end25}
+{return}
+
+Remove:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+
+Remove:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+
+Remove:
+{entry}
+{for.cond, for.body, if.then}
+{if.end, for.end}
+
+Trial:
+{entry}
+{for.cond, for.body, if.then, if.then4, lor.lhs.false}
+{if.then9, if.else}
+{if.end10}
+{if.end11, for.end}
+{return}
+
+Trial:
+{entry}
+{for.cond, for.body, if.then, if.then4, lor.lhs.false}
+{if.then9, if.else}
+{if.end10}
+{if.end11, for.end}
+{return}
+
+Puzzle:
+{entry}
+{for.cond, for.body, for.end}
+{for.cond1, for.body3}
+{for.cond4, for.body6}
+{for.cond7, for.body9, for.end16, for.end19, for.end22}
+{for.cond23, for.body25}
+{for.cond26, for.body28, for.end35, for.end38}
+{for.cond39, for.body41}
+{for.cond42, for.body44}
+{for.cond45, for.body47, for.end56, for.end59, for.end62}
+{for.cond63, for.body65}
+{for.cond66, for.body68}
+{for.cond69, for.body71, for.end80, for.end83, for.end86}
+{for.cond87, for.body89}
+{for.cond90, for.body92}
+{for.cond93, for.body95, for.end104, for.end107, for.end110}
+{for.cond111, for.body113}
+{for.cond114, for.body116}
+{for.cond117, for.body119, for.end128, for.end131, for.end134}
+{for.cond135, for.body137}
+{for.cond138, for.body140}
+{for.cond141, for.body143, for.end152, for.end155, for.end158}
+{for.cond159, for.body161}
+{for.cond162, for.body164}
+{for.cond165, for.body167, for.end176, for.end179, for.end182}
+{for.cond183, for.body185}
+{for.cond186, for.body188}
+{for.cond189, for.body191, for.end200, for.end203, for.end206}
+{for.cond207, for.body209}
+{for.cond210, for.body212}
+{for.cond213, for.body215, for.end224, for.end227, for.end230}
+{for.cond231, for.body233}
+{for.cond234, for.body236}
+{for.cond237, for.body239, for.end248, for.end251, for.end254}
+{for.cond255, for.body257}
+{for.cond258, for.body260}
+{for.cond261, for.body263, for.end272, for.end275, for.end278}
+{for.cond279, for.body281}
+{for.cond282, for.body284}
+{for.cond285, for.body287, for.end296, for.end299, for.end302}
+{for.cond303, for.body305}
+{for.cond306, for.body308}
+{for.cond309, for.body311, for.end320, for.end323, for.end326}
+{for.cond327, for.body329}
+{for.cond330, for.body332}
+{for.cond333, for.body335, for.end344, for.end347, for.end350, if.then, if.else}
+{if.end, if.then355, if.else357, if.then359}
+{if.end361}
+{if.end362}
+
+Puzzle:
+{entry}
+{for.cond, for.body, for.end}
+{for.cond1, for.body3}
+{for.cond4, for.body6}
+{for.cond7, for.body9, for.end16, for.end19, for.end22}
+{for.cond23, for.body25}
+{for.cond26, for.body28, for.end35, for.end38}
+{for.cond39, for.body41}
+{for.cond42, for.body44}
+{for.cond45, for.body47, for.end56, for.end59, for.end62}
+{for.cond63, for.body65}
+{for.cond66, for.body68}
+{for.cond69, for.body71, for.end80, for.end83, for.end86}
+{for.cond87, for.body89}
+{for.cond90, for.body92}
+{for.cond93, for.body95, for.end104, for.end107, for.end110}
+{for.cond111, for.body113}
+{for.cond114, for.body116}
+{for.cond117, for.body119, for.end128, for.end131, for.end134}
+{for.cond135, for.body137}
+{for.cond138, for.body140}
+{for.cond141, for.body143, for.end152, for.end155, for.end158}
+{for.cond159, for.body161}
+{for.cond162, for.body164}
+{for.cond165, for.body167, for.end176, for.end179, for.end182}
+{for.cond183, for.body185}
+{for.cond186, for.body188}
+{for.cond189, for.body191, for.end200, for.end203, for.end206}
+{for.cond207, for.body209}
+{for.cond210, for.body212}
+{for.cond213, for.body215, for.end224, for.end227, for.end230}
+{for.cond231, for.body233}
+{for.cond234, for.body236}
+{for.cond237, for.body239, for.end248, for.end251, for.end254}
+{for.cond255, for.body257}
+{for.cond258, for.body260}
+{for.cond261, for.body263, for.end272, for.end275, for.end278}
+{for.cond279, for.body281}
+{for.cond282, for.body284}
+{for.cond285, for.body287, for.end296, for.end299, for.end302}
+{for.cond303, for.body305}
+{for.cond306, for.body308}
+{for.cond309, for.body311, for.end320, for.end323, for.end326}
+{for.cond327, for.body329}
+{for.cond330, for.body332}
+{for.cond333, for.body335, for.end344, for.end347, for.end350, if.then, if.else}
+{if.end, if.then355, if.else357, if.then359}
+{if.end361}
+{if.end362}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+main:
+{entry}
+{for.cond, for.body, for.end}
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+284 aa               - Number of MustAlias results
+391 aa               - Number of NoAlias results
+  8 capture-tracking - Number of pointers not captured
+ 52 gvn              - Number of blocks merged
+200 gvn              - Number of instructions deleted
+186 gvn              - Number of loads deleted
+  3 gvn              - Number of instructions simplified
+  2 memdep           - Number of block queries that were completely cached
+ 33 memdep           - Number of cached, but dirty, non-local ptr responses
+474 memdep           - Number of fully cached non-local ptr responses
+395 memdep           - Number of uncached non-local ptr responses
+
